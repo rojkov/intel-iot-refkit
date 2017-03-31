@@ -11,7 +11,7 @@ SRC_URI = "git://github.com/intel-iot-devkit/upm.git;protocol=http;tag=v${PV}"
 
 S = "${WORKDIR}/git"
 
-inherit distutils-base cmake
+inherit distutils3-base cmake
 
 
 # override this in local.conf to get needed bindings.
